@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+  color: SeaShell;
+  opacity: 0.9;
+  font-size: 22px;
+  font-family: Helvetica;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid SeaShell;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}
+
+header nav {
+  color: SeaShell;
+  text-decoration: underline;
+  
+
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
