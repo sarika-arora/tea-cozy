@@ -4,6 +4,7 @@ body {
   opacity: 0.9;
   font-size: 22px;
   font-family: Helvetica;
+  text-align: center;
 }
 
 header {
@@ -16,11 +17,15 @@ header {
   z-index: 10;
 }
 
-header nav {
+nav {
   color: SeaShell;
-  text-decoration: underline;
-  
+  text-align: right;
+  flex-grow: 1;
+}
 
+a {
+  color: SeaShell;
+  padding: 10px;
 }
 
 header img {
