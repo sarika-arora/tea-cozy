@@ -5,6 +5,8 @@ body {
   font-size: 22px;
   font-family: Helvetica;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 .flex-display {
@@ -37,6 +39,7 @@ a {
 header img {
   height: 50px;
   padding-left: 10px;
+  text-align: left;
 }
 
 .mission.flex-display {
@@ -56,4 +59,39 @@ h2, h4 {
 .text-content {
   width: 1200px;
   background-color: black;
+}
+
+.featured-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.featured.flex-display {
+  display: flex;
+  height: 700px;
+  width: 1000px;
+}
+
+.featured-list {
+  display: inline-flex;
+  max-width: 1000px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  padding-bottom: 20px;
+}
+
+.list-item img {
+  height: 200px;
+  width: 300px;
+  margin: 15px;
+}
+
+.list-item span {
+  display: block;
+  flex-wrap: wrap;
 }
