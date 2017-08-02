@@ -82,7 +82,7 @@ h2, h4 {
 }
 
 .list-item {
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 
 .list-item img {
@@ -94,6 +94,7 @@ h2, h4 {
 .list-item span {
   display: block;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 
 .locations.flex-display {
@@ -102,10 +103,6 @@ h2, h4 {
   width: 1200px;
   align-items: center;
   margin-top: 70px;
-}
-
-.locations-text {
-  width: 1200px;
 }
 
 .locations-list {
